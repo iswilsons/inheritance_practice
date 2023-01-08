@@ -24,7 +24,7 @@ void Account::deposit(double amount)
 
 void Account::withdraw(double amount)
 {
-    if (balance > 0 && amount - balance > 0)
+    if (balance > 0 && balance - amount > 0)
     {
         this->balance -= amount;
     }
