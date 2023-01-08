@@ -37,5 +37,5 @@ void Account::withdraw(double amount)
 
 void Account::displayInfo()
 {
-    std::cout <<"Account name = "<< name << "\nbalance = " << balance;
+    std::cout <<"Account name = "<< name << "\nbalance = " << balance << std::endl;
 }
